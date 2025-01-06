@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fffdd0, #f6f8fa);
+    color: #333;
+}
+
+.header {
+    background-color: #f9ffc4;
+    color: rgba(0, 0, 0, 0.651);
+    padding: 5px 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: translateY(-10px);
+}
+
+#topics {
+    margin-bottom: 30px;
+}
+
+.topic {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    transition: background-color 0.3s ease;
+}
+
+.topic:hover {
+    background-color: #f1f1f1;
+}
+
+.topic a {
+    text-decoration: none;
+    color: #0069d9;
+    font-weight: 600;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.topic a:hover {
+    color: #0056b3;
+}
+
+.new-topic {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #ddd;
+}
+
+.new-topic input, .new-topic textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.new-topic input:focus, .new-topic textarea:focus {
+    border-color: #0069d9;
+    outline: none;
+}
+
+.new-topic button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.new-topic button:hover {
+    background-color: #218838;
+}
